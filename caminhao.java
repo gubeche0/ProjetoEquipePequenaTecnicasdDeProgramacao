@@ -1,12 +1,22 @@
-public class caminhao implements VeiculoInterface{
+public class Caminhao implements VeiculoInterface{
     private Double preco;
     private String marca;
     private int ano;
     private String modelo;
     private Double consumo;
-
     private Double capacidadeDeCarga;
     private int NDeEixos;
+
+
+    public Caminhao(Double preco, String marca, int ano, String modelo, Double consumo, Double capacidadeDeCarga, int NDeEixos){
+		this.preco = preco;
+		this.marca = marca;
+		this.ano = ano;
+		this.modelo = modelo;
+		this.consumo = consumo;
+		this.capacidadeDeCarga = capacidadeDeCarga;
+        this.NDeEixos = NDeEixos;
+	}
     
     public Double getPreco(){
         return this.preco;
