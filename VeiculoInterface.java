@@ -15,6 +15,6 @@ public interface VeiculoInterface {
     void setModelo(String modelo);
 
     Double getConsumo();
-    Void setConsumo(Double kmPorLitro);
+    void setConsumo(Double kmPorLitro);
 
 }
