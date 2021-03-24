@@ -7,14 +7,14 @@ public class Aviao implements VeiculoInterface {
 	private String marca;
 	private int ano;
 	private String modelo;
-	private String consumo;
+	private Double consumo;
 	private int alturaMaxima;
 	private int capacidadePassageiros;
 	private int capacidadeCarga;
 	private String tipo;
 
 	// Construtor
-	public Aviao(Double preco, String marca, int ano, String modelo, String consumo, int alturaMaxima, int capacidadePassageiros, int capacidadeCarga, String tipo){
+	public Aviao(Double preco, String marca, int ano, String modelo, Double consumo, int alturaMaxima, int capacidadePassageiros, int capacidadeCarga, String tipo){
 		this.preco = preco;
 		this.marca = marca;
 		this.ano = ano;
@@ -55,10 +55,10 @@ public class Aviao implements VeiculoInterface {
 		this.modelo = novoModelo;
 	}
 
-	public String getConsumo(){
+	public Double getConsumo(){
 		return this.consumo;
 	}
-	public void setConsumo(String kmPorLitro){
+	public void setConsumo(Double kmPorLitro){
 		this.consumo = kmPorLitro;
 	}
 
