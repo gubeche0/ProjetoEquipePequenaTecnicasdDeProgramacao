@@ -41,7 +41,6 @@ public class caminhao implements VeiculoInterface{
     }
     public Void setConsumo(String kmPorLitro){
         this.consumo = Double.parseDouble(kmPorLitro);
-        return null;
     }
 
     public Double getCapacidadeDeCarga(){
@@ -49,7 +48,6 @@ public class caminhao implements VeiculoInterface{
     }
     public Void setCapacidadeDeCarga(Double capacidadeDeCarga){
         this.capacidadeDeCarga = capacidadeDeCarga;
-        return null;
     }
 
     public int getNDeEixos(){
@@ -57,7 +55,6 @@ public class caminhao implements VeiculoInterface{
     }
     public Void setNDeEixos(int eixos){
         this.NDeEixos = eixos;
-        return null;
     }
 
 
