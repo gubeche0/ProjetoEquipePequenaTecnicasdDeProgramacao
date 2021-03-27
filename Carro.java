@@ -70,4 +70,9 @@ public class Carro implements VeiculoInterface {
     public void setAssentos(int numAssentos){
         this.numAssentos = numAssentos;
     }
+
+    public String toString(){
+		return "preco = " + getPreco() + ", marca = " + getMarca() + ", modelo = " + getModelo() + ", ano = " + getAno() + ", consumo = " + getConsumo() + ", portas = " + getNumPortas() + ", teto solar = " + getTetoSolar() + ", assentos = " + getAssentos();
+	}
+
 }
