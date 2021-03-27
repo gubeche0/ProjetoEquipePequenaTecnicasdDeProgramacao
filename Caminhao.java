@@ -7,7 +7,6 @@ public class Caminhao implements VeiculoInterface{
     private Double capacidadeDeCarga;
     private int NDeEixos;
 
-
     public Caminhao(Double preco, String marca, int ano, String modelo, Double consumo, Double capacidadeDeCarga, int NDeEixos){
 		this.preco = preco;
 		this.marca = marca;
@@ -67,5 +66,15 @@ public class Caminhao implements VeiculoInterface{
         this.NDeEixos = eixos;
     }
 
-
+    @Override
+    public String toString() {
+        return "Caminhao:" +
+                "preco='" + this.preco +
+                ", marca=" + this.marca +
+                ", modelo=" + this.modelo +
+                ", ano=" + this.ano +
+                ", consumo=" + this.consumo +
+                ", capacidade de carga=" + this.capacidadeDeCarga +
+                ", Numero de eixos=" + this.NDeEixos;
+    }
 }
