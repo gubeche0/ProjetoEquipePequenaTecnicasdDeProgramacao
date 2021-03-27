@@ -70,4 +70,5 @@ public class Carro implements VeiculoInterface {
     public void setAssentos(int numAssentos){
         this.numAssentos = numAssentos;
     }
+
 }

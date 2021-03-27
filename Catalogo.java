@@ -44,6 +44,7 @@ public class Catalogo {
 
     private void populateVeiculos() {
         addVeiculo((new Carro(100000.0, "Tesla", 2020, "series x", 0.0, 4, false, 7)));
+        addVeiculo((new Caminhao(100000.0, "Tesla", 2020, "series x", 0.0, 10.0, 7)));
     }
     
 }
