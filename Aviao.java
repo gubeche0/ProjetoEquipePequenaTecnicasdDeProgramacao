@@ -91,4 +91,9 @@ public class Aviao implements VeiculoInterface {
 		this.tipo = novoTipo;
 	}
 
+	// toString
+	public String toString(){
+		return "Preco: "+this.getPreco()+", marca: "+this.getMarca()+", modelo: "+this.getModelo()+", ano: "+this.getAno()+", consumo: "+this.getConsumo()+", tipo: "+this.getTipo()+", altura maxima: "+this.getAlturaMaxima()+", capacidade depassageiros: "+this.getCapacidadePassageiros();
+	}
+
 }
