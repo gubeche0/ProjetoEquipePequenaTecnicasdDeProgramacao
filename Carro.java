@@ -72,7 +72,7 @@ public class Carro implements VeiculoInterface {
     }
 
     public String toString(){
-		return "preco = " + getPreco() + ", marca = " + getMarca() + ", modelo = " + getModelo() + ", ano = " + getAno() + ", consumo = " + getConsumo() + ", portas = " + getNumPortas() + ", teto solar = " + getTetoSolar() + ", assentos = " + getAssentos();
+		return "Carro: preco = " + getPreco() + ", marca = " + getMarca() + ", modelo = " + getModelo() + ", ano = " + getAno() + ", consumo = " + getConsumo() + ", portas = " + getNumPortas() + ", teto solar = " + getTetoSolar() + ", assentos = " + getAssentos();
 	}
 
 }

@@ -93,7 +93,7 @@ public class Aviao implements VeiculoInterface {
 
 	// toString
 	public String toString(){
-		return "Preco= "+this.getPreco()+", marca= "+this.getMarca()+", modelo= "+this.getModelo()+", ano= "+this.getAno()+", consumo= "+this.getConsumo()+", tipo= "+this.getTipo()+", altura maxima= "+this.getAlturaMaxima()+", capacidade depassageiros= "+this.getCapacidadePassageiros();
+		return "Aviao: Preco= "+this.getPreco()+", marca= "+this.getMarca()+", modelo= "+this.getModelo()+", ano= "+this.getAno()+", consumo= "+this.getConsumo()+", tipo= "+this.getTipo()+", altura maxima= "+this.getAlturaMaxima()+", capacidade depassageiros= "+this.getCapacidadePassageiros();
 	}
 
 }
